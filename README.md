@@ -6,29 +6,29 @@
 
 目前只测试了ESP-IDF 5.0版本
 
----
+测试视频 [测试视频](https://oshwhub.com/attachments/2023/11/JdvqdwuP8ncqcF0woqnOiNfN69BlSjUTDFOELuhI.mp4)
 
-<br/>
+---
 
 ## 准备工作
 
 ### 硬件准备
 
-语音识别验证版 [立创开源平台](https://)  // TODO: 链接待完善
+语音识别验证版 [立创开源平台]([https://](https://oshwhub.com/monoliths/esp32-s3-based-language-recognition-verification-board))
 
-![原理图](https://)
+![原理图](https://github.com/Diam2023/ESP32-S3-Audio-Test/blob/main/static/sch.png)
 
 #### 默认IO
 
 |引脚|元器件|备注|
 |--|--|--|
 |14|LED|唤醒词指示|
+|21|LED|none|
+|47|LED|none|
 |13|WS2812|RGB|
 |2|MSM261S4030H0R|SD|
 |41|MSM261S4030H0R|SCK|
 |42|MSM261S4030H0R|WS|
-
-<br/>
 
 ### 软件准备
 
@@ -39,8 +39,6 @@ ESP-WHO 的运行基于 [ESP-IDF release/v5.0](https://github.com/espressif/esp-
 #### ESP-WHO
 
 参考 [获取ESP-WHO](https://github.com/espressif/esp-who/blob/master/README_CN.md#%E8%8E%B7%E5%8F%96-esp-who)
-
-<br/>
 
 ### 运行测试代码
 
