@@ -14,9 +14,7 @@
 
 ### 硬件准备
 
-语音识别验证版 [立创开源平台]([https://](https://oshwhub.com/monoliths/esp32-s3-based-language-recognition-verification-board))
-
-![原理图](https://github.com/Diam2023/ESP32-S3-Audio-Test/blob/main/static/sch.png)
+语音识别验证版 [立创开源平台](https://oshwhub.com/monoliths/esp32-s3-based-language-recognition-verification-board))
 
 #### 默认IO
 
