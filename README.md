@@ -36,20 +36,24 @@ ESP-WHO 的运行基于 [ESP-IDF release/v5.0](https://github.com/espressif/esp-
 
 #### ESP-WHO
 
-参考 [获取ESP-WHO](https://github.com/espressif/esp-who/blob/master/README_CN.md#%E8%8E%B7%E5%8F%96-esp-who)
+~~参考 [获取ESP-WHO](https://github.com/espressif/esp-who/blob/master/README_CN.md#%E8%8E%B7%E5%8F%96-esp-who)~~
 
 ### 运行测试代码
 
-#### 步骤1：进入 `esp-who/examples` 目录
+#### 步骤1：进入项目目录
 
 ```sh
-git clone https://github.com/Diam2023/ESP32-S3-Audio-Test.git
+
+git clone https://github.com/Diam2023/ESP32-S3-Audio-Test.gi
+
+cd ESP32-S3-Audio-Test
+
 ```
 
-#### 步骤2：进入项目目录
+#### 步骤2：Get submodules
 
 ```sh
-cd ESP32-S3-Audio-Test
+git submodule update --init
 ```
 
 #### 步骤3：设置目标芯片

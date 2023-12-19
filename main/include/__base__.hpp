@@ -7,7 +7,6 @@
 #include "freertos/task.h"
 #include "freertos/semphr.h"
 
-#include "esp_camera.h"
 
 typedef enum
 {
@@ -56,22 +55,3 @@ public:
     }
 };
 
-class Frame
-{
-public:
-    QueueHandle_t queue_i;
-    QueueHandle_t queue_o;
-    void (*callback)(camera_fb_t *);
-
-    Frame(QueueHandle_t queue_i = nullptr,
-          QueueHandle_t queue_o = nullptr,
-          void (*callback)(camera_fb_t *) = nullptr) : queue_i(queue_i),
-                                                       queue_o(queue_o),
-                                                       callback(callback) {}
-
-    void set_io(QueueHandle_t queue_i, QueueHandle_t queue_o)
-    {
-        this->queue_i = queue_i;
-        this->queue_o = queue_o;
-    }
-};
